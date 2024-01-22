@@ -17,7 +17,7 @@ export const BlueRed = {
 }
 
 export const OrangeBlack = {
-  primary: "#2196F3",
+  primary: "#FF5722",
   darkPrimary: "#E64A19",
   lightPrimary: "#FFAB91",
   text_icon: "#FFFFFF",
