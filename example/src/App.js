@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ExampleComponent, BlueRed, OrangeBlack } from 'nreact-colors'
+import {BlueRed, OrangeBlack } from 'nreact-colors'
 import { NNavigator } from 'nreact-navigator'
 import eagle_icon from './eagle head logo.png'
 import 'nreact-colors/dist/index.css'
@@ -19,8 +19,10 @@ const App = () => {
       {text:'test', id:1, href:'#'},
       {text:'test2', id:2, href:'#'}
     ]}
+
+    footerMessage="Made with ❤️ | nreact libraries"
   >
-    <ExampleComponent text="Create React Library Example 😄" />
+    <h1 color={OrangeBlack['primary']}>nreact colors library</h1>
   </NNavigator>
 }
 
